@@ -13,7 +13,7 @@ Sistema para cadastro de cliente. Back-End desenvolvido em `NODE JS`, e o Front-
         2.a – Altera os dados do cliente – dados 
         pessoais. [ NOME, CPF/CNPJ, IE/RG, OBSERVAÇÃO]
 
-## 3 – EXCLUIR CLIENTE
+## 3 – DESATIVAR/ATIVAR CLIENTE
 	
         3.a – O Sistema não exclui o cliente. Ele 
         desativa o cliente. Caso deseja pode ativar ele novamente.
