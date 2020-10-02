@@ -10,15 +10,18 @@ Sistema para cadastro de cliente. Back-End desenvolvido em `NODE JS`, e o Front-
 
 2 – ALTERAÇÃO CLIENTE
 	
-        2.a – Altera os dados do cliente – dados pessoais. [ NOME, CPF/CNPJ, IE/RG, OBSERVAÇÃO]
+        2.a – Altera os dados do cliente – dados 
+        pessoais. [ NOME, CPF/CNPJ, IE/RG, OBSERVAÇÃO]
 
 3 – EXCLUIR CLIENTE
 	
-        3.a – O Sistema não exclui o cliente. Ele desativa o cliente. Caso deseja pode ativar ele novamente.
+        3.a – O Sistema não exclui o cliente. Ele 
+        desativa o cliente. Caso deseja pode ativar ele novamente.
 
 4 – EXCLUSÃO
 	
-        4.a – O sistema exclui o telefone, e-mail e endereço. Caso o telefone, e-mail, endereço foi colocado errado. Não tem como alterar, tem que excluir e cadastrar novamente.
+        4.a – O sistema exclui o telefone, e-mail e endereço. Caso o telefone, e-mail, 
+        endereço foi colocado errado. Não tem como alterar, tem que excluir e cadastrar novamente.
 
 ---
 # 📱 App
