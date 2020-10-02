@@ -1,0 +1,8 @@
+
+.container .card .card-body .col-md-12{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}

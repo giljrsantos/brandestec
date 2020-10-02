@@ -1,0 +1,30 @@
+.container{
+    margin-top: 10%;
+    margin-bottom: 60px;
+}
+div.container div.card{
+    padding: 5px;
+}
+div.container div.card div.card-header{
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: Roboto;
+}
+div.container div.card div.card-body{
+    border:1px solid #808080;
+    border-radius: 3px;    
+}
+
+
+div.container div.card div.card-body input{
+    border: 1px solid #808080;
+    font-size: 1rem;
+}
+
+div.container div.card div.card-body form .btn-secondary{
+    float: left;
+}
+
+div.container div.card div.card-body form .btn-success{
+    float:right;
+}

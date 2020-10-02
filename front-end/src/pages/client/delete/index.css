@@ -1,0 +1,14 @@
+.container .card-body .row input, select{
+    font-size: 2rem;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.container .card-body .row .col-md-12 a{
+    margin-left: 2rem;
+    float: left;
+}
+.container .card-body .row .col-md-12 button{
+    margin-right: 2rem;
+    float: right;
+}

@@ -1,0 +1,89 @@
+.client-info{
+    max-width: 100%;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.client-info article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius:  5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.client-info article .row .col-md-3{
+    border:1px solid #808080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin: 2px 0 2px 0;
+    padding: 5px;
+}
+.client-info article .row .col-md-3 strong{
+    font-family: 'Roboto' sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.2rem;
+    font-weight: bold;
+}
+.client-info article .observacao{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: 16px !important;
+}
+.client-info article div.link .col-md-4 a{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+    border: 1px solid rgb(90, 86, 86, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.client-info article div.link .col-md-4 a:hover{
+    background-color: #00ADEF;
+}
+.client-info article div.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article div.endereco1, .telefone, .email{
+    border:1px solid #00ADEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+article div.endereco1 .link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+article div.endereco1 .link a{
+    border: 1px solid #00ADEF;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+article div.endereco1 .form-group{
+    
+    border:1px solid #808080;
+    display: flex;
+}

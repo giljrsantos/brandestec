@@ -1,0 +1,172 @@
+.product-list{
+    max-width: 100%;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    margin-top: 80px;
+}
+
+@media(max-width: 560px){
+    .btncadastrar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25%;
+    }
+}
+
+@media(min-width: 1360px){
+    .btncadastrar{
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+        margin-top: 0%;
+    }
+}
+
+.product-list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius:  5px;
+    padding: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
+
+.product-list article p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+.product-list article div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-list article div button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #fff;
+    border-width: 0.5px;
+    border-color: #ccc;
+}
+
+.product-list article a.viewer{
+    height: 42px;
+    width: 42px;
+    border-radius: 21px;
+    padding: 5px;
+    border: 2px solid #00ADEF;
+    background: none;
+    margin-top: 10px;
+    color: #00ADEF;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.product-list article a.edite{
+    height: 42px;
+    width: 42px;
+    border-radius: 21px;
+    padding: 5px;
+    border: 2px solid #F7ABAD;
+    background: none;
+    margin-top: 10px;
+    color: #F7ABAD;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.product-list article a.delete{
+    height: 42px;
+    width: 42px;
+    border-radius: 21px;
+    padding: 5px;
+    border: 2px solid #f00;
+    background: none;
+    margin-top: 10px;
+    color: #f00;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.product-list article a.ativo{
+    height: 42px;
+    width: 42px;
+    border-radius: 21px;
+    padding: 5px;
+    border: 2px solid green;
+    background: none;
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.product-list article a.viewer:hover{
+    background: #00ADEF;
+    color: #fff;
+}
+.product-list article a.edite:hover{
+    background: #F7ABAD;
+    color: #fff;
+}
+.product-list article a.delete:hover{
+    background: #f00;
+    color: #fff;
+}
+
+.product-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-list .actions button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product-list .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+.product-list .actions button[disabled]:hover{
+    opacity: 0.5;
+}
+
+.product-list .actions button:hover{
+    opacity: 0.7;
+}

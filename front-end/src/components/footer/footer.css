@@ -1,0 +1,41 @@
+*, body, html {
+    padding: 0;
+    margin: 0;
+}
+footer#main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    padding: 3px;
+    background: #fff ;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-weight: 900;
+    z-index: 1;
+    bottom: 0;
+    position: fixed;
+}
+
+footer#main-footer span.primary{
+    color: #2b2c7e !important;
+    
+}
+footer#main-footer span.secondy{
+    color: #00adef !important;
+    
+}
+
+footer#main-footer span.third{
+    color: #f7abae !important;
+    
+}
+
+
+footer#main-footer img{
+    height: 60px;
+    border:none;
+}

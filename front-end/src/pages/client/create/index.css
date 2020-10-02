@@ -1,0 +1,23 @@
+.card{
+    margin-top: 17%;
+}
+.card-header{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Roboto;
+}
+.card-body{
+    border: 0.1rem solid gray;
+    border-radius: 2px;
+}
+
+.card-body input {
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+label{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Roboto;
+}
